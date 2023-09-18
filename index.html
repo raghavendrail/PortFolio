@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <title>Sticky Navbar | Vanilla Javascript</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header id="header">
+    <a href="#" class="logo">Raghav</a>
+    <ul>
+      <li><a href="#home" onclick="toggle()">Home</a></li>
+      <li><a href="#about" onclick="toggle()">About</a></li>
+      <li><a href="#services" onclick="toggle()">Services</a></li>
+      <li><a href="#portfolio" onclick="toggle()">Portfolio</a></li>
+      <li><a href="#team" onclick="toggle()">Team</a></li>
+      <li><a href="#contact" onclick="toggle()">Contact</a></li>
+    </ul>
+    <div class="toggle" onclick="toggle()"></div>
+  </header>
+  <section class="banner" id="home">
+    <h2>Curious About<br><span>Tech</span> World</h2>
+  </section>
+  <section class="sec about" id="about">
+    <div class="content">
+      <div class="mxw800p">
+        <h3>Who Am I</h3>
+        <p>Raghavendra IL is a dedicated student currently pursuing Electronics & Communication Engineering at RVITM. 
+          With a commendable 7.0 CGPA, he exhibits a strong academic foundation.
+           Raghavendra's standout achievements lie in his proficiency in development projects. 
+          </p>
+        <a href="#" class="btn">Read Our Story</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec about" id="services">
+    <div class="content">
+      <div class="mxw800p">
+        <h3>What We Do</h3>
+        <p>Our team united to create a Python project, implementing the DNA Algorithm for Speech Encryption. 
+          We also enthusiastically engaged in various cultural activities, promoting a balanced and holistic approach to our education and personal growth.</p>
+      </div>
+      <div class="services">
+        <div class="box">
+          <div class="iconBx">
+            <img src="icon1.png">
+          </div>
+          <div class="content">
+            <h2>Design</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et.</p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="iconBx">
+            <img src="icon2.png">
+          </div>
+          <div class="content">
+            <h2>Development</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et.</p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="iconBx">
+            <img src="icon3.png">
+          </div>
+          <div class="content">
+            <h2>Branding</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="sec stats">
+    <div class="content">
+      <div class="mxw800p">
+        <h3>My Achievements</h3>
+        <p> Participated in Taekwondo at state levels in Lucknow,
+           Jammu & Kashmir, twice at the National level, seven times at the State level,
+            and ten times at the District level. Additionally,
+             contributed to a drama production titled "The Interview" in cultural activities.</p>
+      </div>
+      <div class="statsBox">
+        <div class="box">
+          <h2>2</h2>
+          <h4>Teakwondo National Level</h4>
+        </div>
+        <div class="box">
+          <h2>6</h2>
+          <h4>Teakwondo State Level</h4>
+        </div>
+        <div class="box">
+          <h2>14</h2>
+          <h4>Teakwondo District Level</h4>
+        </div>
+      
+      </div>
+    </div>
+  </section>
+  <section class="sec work" id="portfolio">
+    <div class="content">
+      <div class="mxw800p">
+        <h3>Recent Project</h3>
+        <p>Implemented Speech Encryption using Python with the DNA Algorithm. 
+          This project demonstrates secure communication by transforming speech data with innovative DNA-based encryption techniques.</p>
+          <p>....</p>
+      </div>
+      <div class="workBx">
+        <div class="brand">
+          <a href="#"><h2>Brand Name</h2></a>
+        </div>
+        <div class="brand">
+          <a href="#"><h2>Brand Name</h2></a>
+        </div>
+        <div class="brand">
+          <a href="#"><h2>Brand Name</h2></a>
+        </div>
+        <div class="brand">
+          <a href="#"><h2>Brand Name</h2></a>
+        </div>
+        <div class="brand">
+          <a href="#"><h2>Brand Name</h2></a>
+        </div>
+        <div class="brand">
+          <a href="#"><h2>Brand Name</h2></a>
+        </div>
+        <div class="brand">
+          <a href="#"><h2>Brand Name</h2></a>
+        </div>
+        <div class="brand">
+          <a href="#"><h2>Brand Name</h2></a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="sec team" id="team">
+    <div class="content">
+      <div class="mxw800p">
+        <h3>Meet Our Expert</h3>
+        <p>Raghavendra, Sanjay, Pushkal, and Harsha Vardhan collaborated on a Speech Encryption Python project with DNA Algorithm, offering promising future applications.</p>
+      </div>
+      <div class="teamBx">
+        <div class="member">
+          <div class="imgBx">
+            <img src="1.png">
+          </div>
+          <div class="details">
+            <div>
+              <h2>Raghavendra IL<br><span>Creative</span></h2>
+            </div>
+          </div>
+        </div>
+        <div class="member">
+          <div class="imgBx">
+            <img src="2.jpg">
+          </div>
+          <div class="details">
+            <div>
+              <h2>Harsha Vardhan<br><span>Creative</span></h2>
+            </div>
+          </div>
+        </div>
+        <div class="member">
+          <div class="imgBx">
+            <img src="3.jpg">
+          </div>
+          <div class="details">
+            <div>
+              <h2>Pushkal <br><span>Creative</span></h2>
+            </div>
+          </div>
+        </div>
+        <div class="member">
+          <div class="imgBx">
+            <img src="4.jpg">
+          </div>
+          <div class="details">
+            <div>
+              <h2>Sanjay<br><span>Creative</span></h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="sec contact" id="contact">
+    <div class="content">
+      <div class="mxw800p">
+        <h3>Send Us A Message</h3>
+        <p>"Please don't hesitate to reach out. We welcome your inquiries and look forward to assisting you in any way possible."</p>
+      </div>
+      <div class="conactForm">
+        <form>
+          <div class="row100">
+            <div class="inputBx50">
+              <input type="text" name="" placeholder="Full Name">
+            </div>
+            <div class="inputBx50">
+              <input type="text" name="" placeholder="Email Address">
+            </div>
+          </div>
+          <div class="row100">
+            <div class="inputBx100">
+              <textarea placeholder="Message"></textarea>
+            </div>
+          </div>
+          <div class="row100">
+            <div class="inputBx100">
+              <input type="submit" value="Send" name="">
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="sci">
+        <ul>
+          <li><a href="#"><img src="facebook.png"></a></li>
+          <li><a href="#"><img src="twitter.png"></a></li>
+          <li><a href="#"><img src="linkedin.png"></a></li>
+        </ul>
+      </div>
+      <p class="copyright">Design & Developed By <a href="#">Raghavendra IL</a></p>
+    </div>
+  </section>
+  <script type="text/javascript">
+    window.addEventListener("scroll", function(){
+      var header = document.querySelector("header");
+      header.classList.toggle("sticky", window.scrollY > 0);
+    })
+    function toggle(){
+      var header = document.getElementById('header');
+      header.classList.toggle('active')
+    }
+  </script>
+</body>
+</html>
